@@ -140,9 +140,28 @@ p{
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;
+    padding: 20px;
 }
 footer{
     text-align: center;
     background-color: #1bcaf3;
     padding: 20px;
+}
+.avaliacoes{
+    table{
+        width: 100px;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        text-align: center;right: 50%;
+    }
+    th,td{
+        border: 1px solid #ffffff;
+        padding: 10px;
+        background-color: #1bcaf3;
+    }
 }
